@@ -1,0 +1,27 @@
+.Event-Music {
+    color: white;
+    height: 90vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.rec-dot {
+    visibility: hidden;
+}
+
+
+.details {
+    display: 'flex'
+}
+
+@media screen and (max-width: 450px) {
+    .details {
+        display: block;
+    }
+
+    .details div {
+        margin-top: 5vh;
+    }
+}
